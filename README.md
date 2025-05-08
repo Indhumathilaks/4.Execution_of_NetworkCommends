@@ -81,14 +81,6 @@ while True:
  print(s.recv(1024).decode())
 ```
 
-A CODE SIMULATING TRACEROUTE COMMAND
-
-```
-from scapy.all import*
-target = ["www.google.com"]
-result, unans = traceroute(target,maxttl=32)
-print(result,unans)
-```
 
 ## Output
 
@@ -99,9 +91,6 @@ client
 server
 
 ![Screenshot 2025-04-17 141428](https://github.com/user-attachments/assets/8ee0c12b-31d4-4ad4-b633-e76cfd56eea6)
-
-
-![Screenshot 2025-04-17 142121](https://github.com/user-attachments/assets/849cee93-827e-429c-8bdd-4daf491b35c2)
 
 
 
